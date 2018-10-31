@@ -1,3 +1,4 @@
+// state
 import React from 'react'
 
 class Counter extends React.Component {
@@ -11,7 +12,8 @@ class Counter extends React.Component {
 
   increase() {
     this.setState({ count: this.state.count + 1 })
-    console.log(this.state.count)
+
+    console.log(`修改后的 count 为: ${this.state.count}`)
   }
 
   render() {
@@ -19,8 +21,8 @@ class Counter extends React.Component {
 
     return (
       <div>
-        <div>Current count is: {count}</div>
-        <button onClick={() => this.increase()}>+1</button>
+        <h1>Current count is: {count}</h1>
+        <button onClick={this.increase.bind(this)}>+1</button>
       </div>
     )
   }

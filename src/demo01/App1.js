@@ -1,3 +1,4 @@
+// Hello, world!
 import React from 'react'
 
 const MyComponent = () => <h1>Hello, world!</h1>
