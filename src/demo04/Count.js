@@ -35,7 +35,7 @@ class Counter extends React.Component {
       nextState,
     )
 
-    return false
+    return true
   }
 
   getSnapshotBeforeUpdate(prevProps, prevState) {

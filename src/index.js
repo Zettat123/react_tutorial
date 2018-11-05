@@ -7,4 +7,4 @@ import App4 from './demo04/App4'
 import App5 from './demo05/App5'
 import App6 from './demo06/App6'
 
-ReactDOM.render(<App6 />, document.getElementById('app'))
+ReactDOM.render(<App1 />, document.getElementById('app'))
