@@ -2,7 +2,7 @@
 import React from 'react'
 import Count from './Count'
 
-class Base extends React.Component {
+class App4 extends React.Component {
   constructor(props) {
     super(props)
 
@@ -28,4 +28,4 @@ class Base extends React.Component {
   }
 }
 
-export default Base
+export default App4
